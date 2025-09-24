@@ -17,20 +17,16 @@ body {
 h1, h2, h3 {
     color: #1a3c6e;
 }
-.chart-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 20px 0;
-}
-.chart-grid img {
-    width: 48%;
+img {
     border-radius: 8px;
+    margin: 15px 0;
     cursor: zoom-in;
     transition: transform 0.3s ease;
+    display: block;
+    max-width: 100%;
 }
-.chart-grid img:hover {
-    transform: scale(1.5);
+img:hover {
+    transform: scale(1.3);
     z-index: 10;
     position: relative;
 }
@@ -57,11 +53,13 @@ blockquote {
 
 # RPG Mechanics Analysis – What Makes a Hit?
 
-**Insights from Over 70 best-selling RPGs of all time**
+**Insights from the top 60+ best-selling RPGs of all time**
+
+![Cover Image]({{ site.baseurl }}/assets/cover.jpg)
 
 Designing a successful RPG isn’t just about story or graphics—it’s about the mechanics that keep players engaged. Combat style, party management, crafting systems, exploration, and even romance options all shape a game’s commercial and critical performance.  
 
-🎯 **Purpose:** This analysis aims to guide studios (and show my data storytelling skills) by identifying the RPG mechanics most correlated with sales success and critical acclaim.
+🎯 **Purpose:** This analysis aims to guide studios (and showcase my data storytelling skills) by identifying the RPG mechanics most correlated with sales success and critical acclaim.
 
 ---
 
@@ -74,6 +72,8 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 
 📌 *Interpretation:* Turn-based RPGs are niche but beloved. Hybrids appeal to a broader mainstream audience.
 
+![Combat Systems vs Sales]({{ site.baseurl }}/assets/chart1.png)
+
 ---
 
 ### 2. Party Control
@@ -81,6 +81,8 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 - Games with **AI companions** rank in the middle, appealing to casual players.
 
 📌 *Interpretation:* Focused character design and narrative are commercially safer, though party-based systems remain a staple for hardcore fans.
+
+![Party Control vs Sales]({{ site.baseurl }}/assets/chart2.png)
 
 ---
 
@@ -90,6 +92,8 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 
 📌 *Interpretation:* Players want agency, even if limited. “Illusion of choice” is often enough to boost engagement and sales.
 
+![Narrative & Choices vs Sales]({{ site.baseurl }}/assets/chart3.png)
+
 ---
 
 ### 4. Romance & Relationships
@@ -97,12 +101,16 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 
 📌 *Interpretation:* Relationship-building adds emotional depth and replayability, which pays off commercially.
 
+![Romance vs Sales]({{ site.baseurl }}/assets/chart4.png)
+
 ---
 
 ### 5. Crafting & Equipment
 - **Advanced crafting systems** more than **double sales** ($18M vs $8M).  
 
 📌 *Interpretation:* Deep crafting = player investment. Shallow equipment systems are a missed opportunity.
+
+![Crafting vs Sales]({{ site.baseurl }}/assets/chart5.png)
 
 ---
 
@@ -112,6 +120,8 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 
 📌 *Interpretation:* Open-world exploration is now the expectation. Players reward games with immersive, explorable environments.
 
+![Exploration vs Sales]({{ site.baseurl }}/assets/chart6.png)
+
 ---
 
 ### 7. Multiplayer & Online Features
@@ -119,6 +129,8 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 - **Pure single-player**: ~$11M.  
 
 📌 *Interpretation:* Social play drives longevity and revenue, but single-player still thrives with strong storytelling.
+
+![Multiplayer vs Sales]({{ site.baseurl }}/assets/chart7.png)
 
 ---
 
@@ -128,21 +140,7 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 
 📌 *Interpretation:* Critical acclaim extends a game’s sales tail.
 
----
-
-## 📊 Visual Analysis
-
-<div class="chart-grid">
-  <img src="{{ site.baseurl }}/assets/chart1.png" alt="Combat Systems vs Sales">
-  <img src="{{ site.baseurl }}/assets/chart2.png" alt="Party Control vs Sales">
-  <img src="{{ site.baseurl }}/assets/chart3.png" alt="Narrative & Choices vs Sales">
-  <img src="{{ site.baseurl }}/assets/chart4.png" alt="Romance vs Sales">
-  <img src="{{ site.baseurl }}/assets/chart5.png" alt="Crafting vs Sales">
-  <img src="{{ site.baseurl }}/assets/chart6.png" alt="Exploration vs Sales">
-  <img src="{{ site.baseurl }}/assets/chart7.png" alt="Multiplayer vs Sales">
-  <img src="{{ site.baseurl }}/assets/chart8.png" alt="Critics vs Sales">
-</div>
-
+![Critics vs Sales]({{ site.baseurl }}/assets/chart8.png)
 
 ---
 
@@ -176,3 +174,4 @@ A commercially and critically successful RPG today blends:
 **Hybrid/action combat + meaningful player choice + deep crafting + expansive open worlds + optional co-op/romance mechanics.**  
 
 > 📢 *For my portfolio*: This project demonstrates not only technical analysis but also the ability to transform raw datasets into **insights that inform design and business strategy.**
+
