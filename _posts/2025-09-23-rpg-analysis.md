@@ -52,7 +52,7 @@ blockquote {
 
 # RPG Mechanics Analysis – What Makes a Hit?
 
-**Insights from the top 60+ best-selling RPGs of all time**
+**Insights from Over 70 best-selling RPGs of all time**
 
 ![Cover Image]({{ site.baseurl }}/assets/image1.png)
 
