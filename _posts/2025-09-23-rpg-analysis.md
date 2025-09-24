@@ -1,10 +1,9 @@
 ---
-layout: post
-title: "RPG Mechanics Analysis – What Makes a Hit?"
+title: "RPG Mechanics Analysis"
 date: 2025-09-23
-categories: data-analysis portfolio rpg
-permalink: /rpg-mechanics-analysis/
+layout: post
 ---
+
 
 <style>
 body {
