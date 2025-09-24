@@ -6,6 +6,8 @@ date: 2025-09-23
 
 # RPG Mechanics Analysis – What Makes a Hit?
 
+![Cover](/Data-Analysis-Portfolio/assets/image1.png)
+
 **Insights from the top 60+ best-selling RPGs of all time**
 
 Designing a successful RPG isn’t just about story or graphics—it’s about the mechanics that keep players engaged. Combat style, party management, crafting systems, exploration, and even romance options all shape a game’s commercial and critical performance.
