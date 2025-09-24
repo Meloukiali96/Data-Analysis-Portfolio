@@ -55,7 +55,7 @@ blockquote {
 
 **Insights from the top 60+ best-selling RPGs of all time**
 
-![Cover Image]({{ site.baseurl }}/assets/cover.jpg)
+![Cover Image]({{ site.baseurl }}/assets/image1.png)
 
 Designing a successful RPG isn’t just about story or graphics—it’s about the mechanics that keep players engaged. Combat style, party management, crafting systems, exploration, and even romance options all shape a game’s commercial and critical performance.  
 
