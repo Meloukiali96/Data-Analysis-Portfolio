@@ -133,14 +133,14 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 ## 📊 Visual Analysis
 
 <div class="chart-grid">
-  <img src="{{ site.baseurl }}/assets/chart-1.png" alt="Combat Systems vs Sales">
-  <img src="{{ site.baseurl }}/assets/chart-2.png" alt="Party Control vs Sales">
-  <img src="{{ site.baseurl }}/assets/chart-3.png" alt="Narrative & Choices vs Sales">
-  <img src="{{ site.baseurl }}/assets/chart-4.png" alt="Romance vs Sales">
-  <img src="{{ site.baseurl }}/assets/chart-5.png" alt="Crafting vs Sales">
-  <img src="{{ site.baseurl }}/assets/chart-6.png" alt="Exploration vs Sales">
-  <img src="{{ site.baseurl }}/assets/chart-7.png" alt="Multiplayer vs Sales">
-  <img src="{{ site.baseurl }}/assets/chart-8.png" alt="Critics vs Sales">
+  <img src="{{ site.baseurl }}/assets/chart1.png" alt="Combat Systems vs Sales">
+  <img src="{{ site.baseurl }}/assets/chart2.png" alt="Party Control vs Sales">
+  <img src="{{ site.baseurl }}/assets/chart3.png" alt="Narrative & Choices vs Sales">
+  <img src="{{ site.baseurl }}/assets/chart4.png" alt="Romance vs Sales">
+  <img src="{{ site.baseurl }}/assets/chart5.png" alt="Crafting vs Sales">
+  <img src="{{ site.baseurl }}/assets/chart6.png" alt="Exploration vs Sales">
+  <img src="{{ site.baseurl }}/assets/chart7.png" alt="Multiplayer vs Sales">
+  <img src="{{ site.baseurl }}/assets/chart8.png" alt="Critics vs Sales">
 </div>
 
 ---
