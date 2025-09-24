@@ -4,6 +4,41 @@ title: "RPG Mechanics Analysis – What Makes a Hit?"
 date: 2025-09-23
 ---
 
+<style>
+body {
+    background-color: #f8f9fb; /* Light grayish background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.7;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #1a3c6e; /* Deep blue for titles */
+}
+
+blockquote {
+    background: #eef3f8;
+    border-left: 4px solid #1a3c6e;
+    padding: 10px 15px;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+img {
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+    max-width: 90%;
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+</style>
+
 # RPG Mechanics Analysis – What Makes a Hit?
 
 ![Cover](/Data-Analysis-Portfolio/assets/image1.png)
