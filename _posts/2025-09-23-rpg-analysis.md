@@ -1,64 +1,73 @@
 ---
-title: "RPG Mechanics Analysis"
-date: 2025-09-23
 layout: post
+title: "RPG Mechanics Analysis – What Makes a Hit?"
+date: 2025-09-23
+categories: data-analysis portfolio rpg
+permalink: /rpg-analysis/
 ---
-
 
 <style>
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f9fb; /* light background */
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
+  background-color: #f4f6fa; /* soft light gray-blue */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.7;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 h1, h2, h3 {
-    color: #1a3c6e;
+  color: #1a3c6e;
 }
 img {
-    border-radius: 8px;
-    margin: 15px 0;
-    cursor: zoom-in;
-    transition: transform 0.3s ease;
-    display: block;
-    max-width: 100%;
+  width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
 }
 img:hover {
-    transform: scale(1.3);
-    z-index: 10;
-    position: relative;
-}
-section.tools {
-    background-color: #d9e6f2;
-    padding: 15px;
-    border-radius: 6px;
-    margin-bottom: 20px;
-}
-a {
-    color: #1a3c6e;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
+  transform: scale(1.4);
+  z-index: 10;
+  position: relative;
 }
 blockquote {
-    font-style: italic;
-    background: #eef3f8;
-    padding: 10px;
-    border-left: 4px solid #1a3c6e;
+  font-style: italic;
+  background: #eef3f8;
+  padding: 10px;
+  border-left: 4px solid #1a3c6e;
+}
+section.tools {
+  background-color: #d9e6f2;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+a {
+  color: #1a3c6e;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 </style>
 
+<div class="container">
+
 # RPG Mechanics Analysis – What Makes a Hit?
 
-**Insights from Over 70 best-selling RPGs of all time**
+<img src="/Data-Analysis-Portfolio/assets/rpg-cover.png" alt="RPG Analysis Cover">
 
-![Cover Image]({{ site.baseurl }}/assets/image1.png)
+**Insights from the top 60+ best-selling RPGs of all time**
 
 Designing a successful RPG isn’t just about story or graphics—it’s about the mechanics that keep players engaged. Combat style, party management, crafting systems, exploration, and even romance options all shape a game’s commercial and critical performance.  
 
-🎯 **Purpose:** This analysis aims to guide studios (and showcase my data storytelling skills) by identifying the RPG mechanics most correlated with sales success and critical acclaim.
+🎯 **Purpose:** This analysis aims to guide studios (and show my data storytelling skills) by identifying the RPG mechanics most correlated with sales success and critical acclaim.
 
 ---
 
@@ -71,7 +80,7 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 
 📌 *Interpretation:* Turn-based RPGs are niche but beloved. Hybrids appeal to a broader mainstream audience.
 
-![Combat Systems vs Sales]({{ site.baseurl }}/assets/chart1.png)
+<img src="/Data-Analysis-Portfolio/assets/chart1.png" alt="Combat Systems vs Sales">
 
 ---
 
@@ -81,7 +90,7 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 
 📌 *Interpretation:* Focused character design and narrative are commercially safer, though party-based systems remain a staple for hardcore fans.
 
-![Party Control vs Sales]({{ site.baseurl }}/assets/chart2.png)
+<img src="/Data-Analysis-Portfolio/assets/chart2.png" alt="Party Control vs Sales">
 
 ---
 
@@ -91,7 +100,7 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 
 📌 *Interpretation:* Players want agency, even if limited. “Illusion of choice” is often enough to boost engagement and sales.
 
-![Narrative & Choices vs Sales]({{ site.baseurl }}/assets/chart3.png)
+<img src="/Data-Analysis-Portfolio/assets/chart3.png" alt="Narrative & Choices vs Sales">
 
 ---
 
@@ -100,7 +109,7 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 
 📌 *Interpretation:* Relationship-building adds emotional depth and replayability, which pays off commercially.
 
-![Romance vs Sales]({{ site.baseurl }}/assets/chart4.png)
+<img src="/Data-Analysis-Portfolio/assets/chart4.png" alt="Romance vs Sales">
 
 ---
 
@@ -109,7 +118,7 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 
 📌 *Interpretation:* Deep crafting = player investment. Shallow equipment systems are a missed opportunity.
 
-![Crafting vs Sales]({{ site.baseurl }}/assets/chart5.png)
+<img src="/Data-Analysis-Portfolio/assets/chart5.png" alt="Crafting vs Sales">
 
 ---
 
@@ -119,7 +128,7 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 
 📌 *Interpretation:* Open-world exploration is now the expectation. Players reward games with immersive, explorable environments.
 
-![Exploration vs Sales]({{ site.baseurl }}/assets/chart6.png)
+<img src="/Data-Analysis-Portfolio/assets/chart6.png" alt="Exploration vs Sales">
 
 ---
 
@@ -129,7 +138,7 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 
 📌 *Interpretation:* Social play drives longevity and revenue, but single-player still thrives with strong storytelling.
 
-![Multiplayer vs Sales]({{ site.baseurl }}/assets/chart7.png)
+<img src="/Data-Analysis-Portfolio/assets/chart7.png" alt="Multiplayer vs Sales">
 
 ---
 
@@ -139,7 +148,7 @@ Designing a successful RPG isn’t just about story or graphics—it’s about t
 
 📌 *Interpretation:* Critical acclaim extends a game’s sales tail.
 
-![Critics vs Sales]({{ site.baseurl }}/assets/chart8.png)
+<img src="/Data-Analysis-Portfolio/assets/chart8.png" alt="Critics vs Sales">
 
 ---
 
@@ -174,3 +183,8 @@ A commercially and critically successful RPG today blends:
 
 > 📢 *For my portfolio*: This project demonstrates not only technical analysis but also the ability to transform raw datasets into **insights that inform design and business strategy.**
 
+---
+
+[⬅ Back to Portfolio Home](/Data-Analysis-Portfolio/)
+
+</div>
